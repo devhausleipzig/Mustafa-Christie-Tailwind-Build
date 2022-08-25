@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* color palette
+background 1: #eceeee
+background 2: #2d4055
+font: #051320
+bg-rectangles: #76dcc2 #051320 #6a7c86 
+
+screen sizes:
+mobile version: sm (min-width: 640px)
+desktop version: lg (min-width: 1024px)
+*/
