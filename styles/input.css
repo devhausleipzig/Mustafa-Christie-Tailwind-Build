@@ -14,25 +14,47 @@ desktop version: lg (min-width: 1024px)
 */
 
 body {
-    background-color: #2d4055;
+	background-color: #2d4055;
 }
 
 .lightTheme {
-    background-color: #eceeee;
-    color: #051320;
+	background-color: #eceeee;
+	color: #051320;
 }
 
 .darkTheme {
-    background-color: #051320;
-    color: #eceeee;
+	background-color: #051320;
+	color: #eceeee;
 }
 
-
-#container{
-    @apply lg:w-5/6 w-full lg:h-[1000px] flex justify-center
+#container {
+	@apply flex justify-items-center;
 }
 
-#logoCon, #navCon {
+#logoCon,
+#navCon {
 	display: flex;
 	margin: 2px;
+}
+
+.mobile-gif {
+	max-width: 600px;
+	height: 280px;
+	background-image: url("../images/paint.gif");
+}
+
+.list-item {
+	@apply border-t-2 border-font list-none flex justify-between items-start pb-12 font-sans;
+}
+
+.list-item h2 {
+	@apply font-bold text-5xl;
+}
+
+.list-item-center {
+	@apply flex justify-between items-center;
+}
+
+.list-item-center img {
+	@apply rounded-full h-10 w-10 mt-1 mr-2;
 }

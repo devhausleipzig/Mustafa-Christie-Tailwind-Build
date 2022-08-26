@@ -16,54 +16,77 @@
 			referrerpolicy="no-referrer"
 		/>
 	</head>
-	<body class="w-screen flex">
-		<div id="container" class="">
-			<div id="theme" class="lightTheme darkTheme">
-
-				<header class="flex justify-around w-full h-16">
-			        <div id="logoCon">
-    
-			        	<div id="Xicon">
-							<i class="fa-solid fa-xmark sm:w-2 sm:h-2"></i>
-			        		<!-- <img src="xmark-solid.svg" alt="logo" class="sm:w-2 sm:h-2"> -->
-			        	</div>
-    
-			        	<span id="WSName" class="text-xl">SHOCK</span>
-    
-			        </div>
-					<!--Nav Bar-->
-					<nav class="flex justify-around  h-16">
-
-			            <div id="navCon" class=" ">
-
-				        	<i id="hamburger" class="fa-solid fa-bars sm:w-2 lg:hidden"></i>
-        
-			            	<div id="shopCon" class="flex justify-between items-center w-[59%] ml-0">
-
-			            		<a id="shop" class="no-underline " href="./shop.html">Shop</a>
-			            		<a id="lookBook" class="no-underline " href="./lookbook.html">Lookbook</a>
-			            		<a id="ourStory" class="no-underline " href="./ourstory.html">our story</a>
-
-			            	</div>
-			            </div>
-                    
-				    	<div id="themeCon" class="flex justify-end items-center w-[39%]">
-
-				    		<a id="cart" class="no-underline text-black mr-4"  href="./Cart.html">Cart</a>
-    
-				    		<button id="themeButton" class="themeButton grid place-items-center w-8 h-8 mr-4 ring">
-								<i id="iconTest" class="fa-solid fa-moon"></i>
-
-							</button>
-				    	</div>
-        
-			        </nav>
-				</header>
-				
-				
-			    <main></main>
-			    <footer></footer>
-			</div>	
+	<body>
+		<div id="container" class="w-full">
+			<main>
+				<!-- shapes at the top on mobile and on the left on desktop -->
+				<div class="mobile-gif w-full lg:hidden">
+					<h1
+						class="text-center text-4xl text-white pt-16 drop-shadow-lg lg:hidden"
+					>
+						SWITCH UP YOUR DIGITAL CLOTHING
+					</h1>
+					<div class="flex justify-center pt-5">
+						<button
+							class="bg-font hover:bg-white hover:text-bg2 text-white font-bold py-3 px-4 rounded-full"
+						>
+							WEAR NOW
+						</button>
+						<button
+							class="bg-white hover:bg-shape1 text-bg2 hover:text-white font-bold py-3 w-12 rounded-full"
+						>
+							↗
+						</button>
+						<button
+							class="bg-[url('../images/silver-fabric.png')] object-cover py-3 w-24 rounded-full filter hover:invert"
+						></button>
+					</div>
+				</div>
+				<div class="bg-bg1 h-auto">
+					<div class="px-2 py-4">
+						<div class="list-item">
+							<h2>01</h2>
+							<div class="list-item-center">
+								<img src="../images/green-fabric.jpeg" />
+								<p>The tides of the fashion<br />industry's movement</p>
+							</div>
+							<p class="list-year">/2022</p>
+						</div>
+						<div class="list-item">
+							<h2>02</h2>
+							<div class="list-item-center">
+								<img src="../images/teal-fabric.jpeg" />
+								<p>Show off your look, reap<br />the real-world rewards</p>
+							</div>
+							<p class="list-year">/2021</p>
+						</div>
+						<div class="list-item">
+							<h2>03</h2>
+							<div class="list-item-center">
+								<img src="../images/mauve-fabric.jpeg" />
+								<p>Lorem ipsum, my dudes<br />filler filler filler</p>
+							</div>
+							<p class="list-year">/2020</p>
+						</div>
+						<div class="list-item">
+							<h2>04</h2>
+							<div class="list-item-center">
+								<img src="../images/stripe-fabric.jpeg" />
+								<p>Lorem ipsum, my dudes<br />filler filler filler</p>
+							</div>
+							<p class="list-year">/2019</p>
+						</div>
+						<div class="list-item">
+							<h2>05</h2>
+							<div class="list-item-center">
+								<img src="../images/purple-fabric.jpeg" />
+								<p>Lorem ipsum, my dudes<br />filler filler filler</p>
+							</div>
+							<p class="list-year">/2018</p>
+						</div>
+					</div>
+				</div>
+			</main>
 		</div>
 	</body>
 </html>
