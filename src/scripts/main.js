@@ -4,7 +4,7 @@ const container = document.querySelector("#theme");
     btn.addEventListener("click", function onClick(event) {
 	btnIcon.classList.toggle("fa-moon");
 	btnIcon.classList.toggle("fa-sun");
-    container.classList.toggle('lightTheme');
     container.classList.toggle('darkTheme');
+    container.classList.toggle('lightTheme');
 
 });

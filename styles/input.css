@@ -29,10 +29,5 @@ body {
 
 
 #container{
-    @apply lg:w-5/6 w-full lg:h-[1000px] flex justify-center
-}
-
-#logoCon, #navCon {
-	display: flex;
-	margin: 2px;
+    @apply w-full flex justify-center
 }
